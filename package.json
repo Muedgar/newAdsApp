@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.1.2"
+  },
+  "proxy": "http://localhost:4000"
+}
