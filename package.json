@@ -7,6 +7,10 @@
     "start": "nodemon app.js",
     "heroku-postbuild": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muedgar/adsl22.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
